@@ -1,6 +1,7 @@
-package com.kristian.catalogoapi.business.response;
+package com.kristian.catalogoapi.business.request;
 
 import jakarta.persistence.Column;
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,11 +11,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProdutoOutDTO {
+public class CategoriaInDTO {
 
-    private Long id;
+    @NotBlank(message = "Nome é obrigatório")
     private String nome;
-    private String descricao;
-    private Double preco;
-    private String categoria;
 }

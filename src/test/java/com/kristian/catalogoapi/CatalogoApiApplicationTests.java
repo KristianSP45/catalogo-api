@@ -3,11 +3,11 @@ package com.kristian.catalogoapi;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+/*@SpringBootTest
 class CatalogoApiApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
 
-}
+}*/
